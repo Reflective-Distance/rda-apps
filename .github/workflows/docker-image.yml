@@ -19,7 +19,7 @@ jobs:
         uses: docker/login-action@v3.4.0
         with:
           registy: gchr.io
-          username: ${{ github.actor }}
+          username: MichaelJBerk
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Push
