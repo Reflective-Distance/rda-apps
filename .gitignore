@@ -1,0 +1,76 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+venv.bak/
+
+# Package directories
+*.egg
+*.egg-info/
+dist/
+build/
+*.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+#.vscode/
+.vscode/settings.json
+*.code-workspace
+
+# IDE settings
+.idea/
+
+# MacOS-specific files
+.DS_Store
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# Secrets and environment files
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.dockerignore
+# Dockerfile*
+# Explicitly include the main Dockerfile
+#!Dockerfile
+
+# FastAPI-generated files
+*.db
+*.sqlite3
