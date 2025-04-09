@@ -18,7 +18,7 @@ jobs:
       - name: Login
         uses: docker/login-action@v3.4.0
         with:
-          registy: gchr.io
+          registry: ghcr.io
           username: MichaelJBerk
           password: ${{ secrets.GITHUB_TOKEN }}
 
