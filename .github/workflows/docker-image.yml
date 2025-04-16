@@ -27,6 +27,7 @@ jobs:
         uses: docker/build-push-action@v6.15.0
         with:
           context: .
+          push:
+            true
           tags: 
             dev
-          
