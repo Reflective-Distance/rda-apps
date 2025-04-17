@@ -35,4 +35,4 @@ jobs:
           push:
             true
           tags: 
-            dev
+            ghcr.io/${{ github.repository_owner }}/dev
