@@ -10,6 +10,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
 
     steps:
       - name: Checkout repo
@@ -28,5 +33,5 @@ jobs:
         with:
           context: .
           tags: 
-            dev
+            ghcr.io/reflective-distance/rda-apps:dev
           
