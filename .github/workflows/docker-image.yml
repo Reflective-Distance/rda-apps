@@ -35,4 +35,4 @@ jobs:
           push:
             true
           tags: 
-            ghcr.io/${{ github.repository_owner }}/other-rda-aps:dev
+            ghcr.io/michaeljberk/other-rda-aps:dev
